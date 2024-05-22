@@ -17,3 +17,26 @@ This project implements a custom caching layer with an LRU (Least Recently Used)
 1. Clone the repository:
    ```sh
    git clone <repository-url>
+
+   
+### Running the Application use following command
+javac LRUCache.java
+
+java LRUCache
+
+
+### Design Decisions
+Data Structures:
+
+A HashMap for O(1) access to cache entries.
+A doubly linked list to maintain the LRU order.
+Thread Safety:
+
+Used ReentrantLock to ensure thread-safe operations.
+Persistence:
+
+Implemented using Java's Serializable interface for easy save and load operations.
+Dynamic Configuration:
+
+Cache capacity can be adjusted at runtime.
+	
