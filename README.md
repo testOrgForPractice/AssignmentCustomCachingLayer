@@ -38,5 +38,5 @@ Persistence:
 Implemented using Java's Serializable interface for easy save and load operations.
 Dynamic Configuration:
 
-Cache capacity can be adjusted at runtime..
+Cache capacity can be adjusted at runtime.
 	
